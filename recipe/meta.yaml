@@ -1,5 +1,5 @@
 {% set name = "compas_pb" %}
-{% set version = "0.4.9" %}
+{% set version = "0.4.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compas_pb-{{ version }}.tar.gz
-  sha256: 7931a327392fbc6a463afa0c943c83b6cd964f789630509c62f382b1d2328d4b
+  sha256: 71ce2585cf0ddf86f23d6864482ff73acbe8d535a8fc4e2eeacb0c7ce9938cba
 
 build:
   noarch: python
